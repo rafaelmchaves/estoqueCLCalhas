@@ -1,3 +1,5 @@
 
 # Ignorar todos os diretórios e arquivos em um diretório.
-target/**/* 
+target/**/*
+
+bin/**/* 
