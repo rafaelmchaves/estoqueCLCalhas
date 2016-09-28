@@ -1,5 +1,7 @@
 package com.estoque.rest;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -24,5 +26,19 @@ public class ClienteRest {
     @ResponseStatus(HttpStatus.OK)
 	public void salvar(@RequestBody(required = true) Cliente cliente) {
 		service.salvar(cliente);
+	}
+	
+	@RequestMapping(method = RequestMethod.GET)
+    @ResponseBody
+    @ResponseStatus(HttpStatus.OK)
+	public List<Cliente> buscarTodos() {
+		return service.buscarTodos();
+	}
+	
+	@RequestMapping(method = RequestMethod.PUT)
+    @ResponseBody
+    @ResponseStatus(HttpStatus.OK)
+	public void atualizarCliente(Cliente cliente) {
+		service.atualizarCliente(cliente);
 	}
 }
