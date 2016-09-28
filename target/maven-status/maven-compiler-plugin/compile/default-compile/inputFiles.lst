@@ -1,1 +1,5 @@
-/home/rafael/workspace/estoque/src/main/java/com/estoque/EstoqueApplication.java
+/home/rafaelmc/estoque/estoqueCLCalhas/src/main/java/com/estoque/rest/ClienteRest.java
+/home/rafaelmc/estoque/estoqueCLCalhas/src/main/java/com/estoque/EstoqueApplication.java
+/home/rafaelmc/estoque/estoqueCLCalhas/src/main/java/com/estoque/entidade/Cliente.java
+/home/rafaelmc/estoque/estoqueCLCalhas/src/main/java/com/estoque/repository/ClienteRepository.java
+/home/rafaelmc/estoque/estoqueCLCalhas/src/main/java/com/estoque/service/ClienteService.java

@@ -1,1 +1,5 @@
+com/estoque/service/ClienteService.class
+com/estoque/repository/ClienteRepository.class
 com/estoque/EstoqueApplication.class
+com/estoque/entidade/Cliente.class
+com/estoque/rest/ClienteRest.class
